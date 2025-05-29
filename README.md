@@ -22,7 +22,7 @@ This repository provides a PyTorch-based implementation of **DeepTopoNet**, a co
       - `data_full.csv`
 3. Train the model:
     ```bash
-    python train_bedtopo_model.py
+    python train_deeptoponet.py
     ```
 Model checkpoints will be saved in `./saved_models/`.
 
