@@ -11,8 +11,7 @@ This repository provides a PyTorch-based implementation of **BedTopoCNN**, a con
 
 
 ## 📁 Directory Structure
-<pre lang="markdown"> ```text . ├── train_bedtopo_model.py # Main training script ├── model.py # CNN model architecture ├── dataset.py # Dataset and patch generator ├── loss.py # Custom loss function ├── feature_augmentation.py # Gradient + trend feature generation ├── data/ │ ├── hackathon.h5 # Input feature HDF5 file │ ├── bed_BedMachine.h5 # BedMachine-derived elevation map │ └── data_full.csv # Radar coordinate metadata ├── saved_models/ # Saved checkpoints ``` </pre>
-
+```text . ├── train_bedtopo_model.py # Main training script ├── model.py # CNN model architecture ├── dataset.py # Dataset and patch generator ├── loss.py # Custom loss function ├── feature_augmentation.py # Gradient + trend feature generation ├── data/ │ ├── hackathon.h5 # Input feature HDF5 file │ ├── bed_BedMachine.h5 # BedMachine-derived elevation map │ └── data_full.csv # Radar coordinate metadata ├── saved_models/ # Saved checkpoints ```
 ## 🚀 How to Run
 
 1. Install dependencies:
