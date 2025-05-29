@@ -1,6 +1,6 @@
-# BedTopoCNN: Deep Learning for Bed Topography Estimation
+# DeepTopoNet: Deep Learning for Bed Topography Estimation
 
-This repository provides a PyTorch-based implementation of **BedTopoCNN**, a convolutional neural network designed for subglacial bed topography prediction using surface-derived features. The model leverages radar data, BedMachine-derived priors, and physics-aware loss terms to improve bed elevation reconstruction in regions with sparse observational data.
+This repository provides a PyTorch-based implementation of **DeepTopoNet**, a convolutional neural network designed for subglacial bed topography prediction using surface-derived features. The model leverages radar data, BedMachine-derived priors, and hybrid loss terms to improve bed elevation reconstruction in regions with sparse observational data.
 
 ## 🔧 Features
 
